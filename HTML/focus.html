@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro | Taskly</title>
+    <link rel="icon" type="img/svg+xml" href="/2/img/logo.svg">
+    <link rel="stylesheet" href="/2/CSS/style.css">
+    <link rel="stylesheet" href="/2/CSS/home.css">
+</head>
+<body>
+    <div class="container">
+        <main class="pomo-wrap">
+
+            <header class="pomo-header">
+                <h1>Pomodoro</h1>
+               
+                <div class="pomo-img">
+                   
+                    <img src="/2/img/timer.png" alt="" onerror="this.style.display='none'">
+                </div>
+            </header>
+
+            <div class="timer-card">
+                <div class="mode-tabs">
+                    <button class="active" data-mode="focus">Focus</button>
+                    <button data-mode="short">Short Break</button>
+                    <button data-mode="long">Long Break</button>
+                </div>
+
+                <div id="time">25:00</div>
+
+                <div class="timer-btns">
+                    <button id="startBtn">Start</button>
+                    <button id="resetBtn" class="ghost">Reset</button>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="/2/JS/focus.js"></script>
+    <script src="/2/JS/nav.js"></script>
+</body>
+</html>

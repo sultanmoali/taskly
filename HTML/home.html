@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskly | Home</title>
+    <link rel="icon" type="img/svg+xml" href="/2/img/logo.svg">
+    <link rel="stylesheet" href="/2/CSS/style.css">
+    <link rel="stylesheet" href="/2/CSS/home.css">
+</head>
+<body>
+    <div class="container">
+        <main class="page">
+
+            <section class="welcome">
+                <h2 id="greeting">Good afternoon 👋</h2>
+                <p>Ready to focus?</p>
+            </section>
+
+            <section class="cards">
+                <div class="card">
+                    <h3>Today's Tasks</h3>
+                    <p class="number">
+                        <span id="completedTasks">0</span> / <span id="totalTasks">0</span>
+                    </p>
+                    <div class="bar"><div id="barFill"></div></div>
+                    <p>Tasks completed</p>
+                    <p><a href="/2/HTML/todo.html">View Tasks</a></p>
+                </div>
+
+                <div class="card">
+                    <h3>Focus Time</h3>
+                    <p class="number">25:00</p>
+                    <p>Ready for a focus session?</p>
+                    <p><a href="/2/HTML/focus.html">Start Focus</a></p>
+                </div>
+            </section>
+
+            <section class="tasks tasks-box">
+                <h2><a href="/2/HTML/todo.html">View all tasks</a></h2>
+                <ul id="taskList"></ul>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="/2/JS/home.js"></script>
+    <script src="/2/JS/nav.js"></script>
+</body>
+</html>
