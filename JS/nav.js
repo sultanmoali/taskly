@@ -17,9 +17,9 @@
     document.head.appendChild(style);
 
     const links = [
-        ["🏠 Home", "/2/HTML/home.html"],
-        ["✅ Tasks", "/2/HTML/todo.html"],
-        ["⏱️ Focus", "/2/HTML/focus.html"]
+        ["🏠 Home", "home.html"],
+        ["✅ Tasks", "todo.html"],
+        ["⏱️ Focus", "focus.html"]
     ];
     const here = location.pathname.split("/").pop();
 
